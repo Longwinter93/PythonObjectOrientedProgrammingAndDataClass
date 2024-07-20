@@ -16,3 +16,7 @@ https://pynative.com/python-class-variables/
 https://www.geeksforgeeks.org/python-oops-concepts/
 https://www.programiz.com/python-programming/object-oriented-programming
 https://www.youtube.com/@NeuralNine/playlists
+
+# dataclasses 
+https://www.dataquest.io/blog/how-to-use-python-data-classes/
+https://www.datacamp.com/tutorial/python-data-classes
