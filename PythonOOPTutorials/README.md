@@ -14,3 +14,5 @@ https://www.datacamp.com/tutorial/python-oop-tutorial
 https://www.freecodecamp.org/news/how-to-use-oop-in-python/
 https://pynative.com/python-class-variables/
 https://www.geeksforgeeks.org/python-oops-concepts/
+https://www.programiz.com/python-programming/object-oriented-programming
+https://www.youtube.com/@NeuralNine/playlists
