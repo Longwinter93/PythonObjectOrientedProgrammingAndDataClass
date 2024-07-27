@@ -33,20 +33,21 @@ class Employee:
 #Employee Instances
 emp_1 = Employee('Corey', 'Schafer', 50000) 
 emp_2 = Employee('Test', 'Employee', 60000)
-#1
+#Task 1
 #print(emp_1) without repr it returns an object
-#2
+#Task 2
 #print(emp_1) # it returns the string that we specified in a repr method
-#3 
+#Task 3 
 #print(emp_1) # it returns the str that we specified in a str method
 
 #print(repr(emp_1))
 #print(str(emp_1))
 
-#4 It returns the same object
+#Task 4 It returns the same object
 #print(repr(emp_1.__repr__()))
 #print(str(emp_1.__str__()))
 
+#Task 5
 # these two special methods allow us to change how our objects are printed and displayed
 # we use Dunder Methods:
 #print(1+2)
@@ -55,6 +56,7 @@ emp_2 = Employee('Test', 'Employee', 60000)
 # a string object uses their own Dunder method
 #print(str.__add__('a', 'b')) # str concates these two together
 
+#Task 6
 #We added two employees objects together we combined their salaries
 print(emp_1 + emp_2)
 

@@ -1,9 +1,9 @@
 #Regular methods - it automatically pass the instance as the first argument - it is called self
 #Class methods - it automatically pass the class as the first argument - it is called  cls 
 #Static methods - it does not pass any methods automatically - they do not pass the instance or the class
-#Decorator - Decorators are a very powerful and useful tool in Python since it allows programmers to modify the behaviour of a function or class.
+#Decorators are a very powerful and useful tool in Python since it allows programmers to modify the behaviour of a function or class.
 #Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it
-#Constructor -Constructors are generally used for instantiating an object.
+#Constructors are generally used for instantiating an object.
 #The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created.
 #In Python the __init__() method is called the constructor and is always called when an object is created.
 class Employee:
@@ -86,7 +86,7 @@ print(new_emp_2.pay)
 print(new_emp_3.email)
 print(new_emp_3.pay)
 
-
+#4
 #Static method
 #We are going to create a simple function that takes a date and returns whether or not it is a workday
 #It does not depend on any specific instance or class variable
