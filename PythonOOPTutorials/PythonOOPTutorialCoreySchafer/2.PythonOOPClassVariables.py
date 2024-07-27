@@ -3,7 +3,7 @@
 #Class variables are shared among all instances
 #Instance variables can be unique for each instance such as names , email , pay
 #Class variables should be the same for each instance
-#Difference between instance variables and class variables
+#Difference between instance variables and class variables will be shown
 
 class Employee:
     num_of_emps = 0 #keeping track how many employees we have - it should be the same for all instances of our class
@@ -43,13 +43,13 @@ print(emp_2.pay)
 Employee.apply_raise(emp_2)
 print(emp_2.pay)
 
-
+#Task 2
 #Test a new method in an instance
 #print(emp_1.pay)
 #emp_1.apply_raise() # we need to invoke it to make multiple
 #print(emp_1.pay)
 
-
+#Task 3
 #print(Employee.raise_amount) # we can access this class variable from both my class itself
 #print(emp_1.raise_amount) # we can also access this class variable from instances
 #print(emp_2.raise_amount)
@@ -58,7 +58,7 @@ print(emp_2.pay)
 
 #print(Employee.__dict__) # this class has raise_amount attribute
 
-
+#Task 4
 #Employee.raise_amount = 1.05 # it changes a raise_amount value for class and all instances
 #print(Employee.raise_amount) 
 #print(emp_1.raise_amount) 

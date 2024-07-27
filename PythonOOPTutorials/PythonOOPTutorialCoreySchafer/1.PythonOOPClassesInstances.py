@@ -1,20 +1,4 @@
-#Python Object-Oriented-Programming
-#In Python object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming.
-# It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. 
-# The main concept of object-oriented Programming (OOPs) or oops concepts in Python is to bind the data and the functions that work together as a single unit so that no other part of the code can access this data.
-#Classes provide a means of bundling data and functionality together.
-# Creating a new class creates a new type of object, allowing new instances of that type to be made. 
-# Each class instance can have attributes attached to it for maintaining its state.
-#Class instances can also have methods (defined by its class) for modifying its state. Methods - a function that is associated with a class
-#A class is a collection of objects.
-# A class contains the blueprints or the prototype from which the objects are being created. 
-#It is a logical entity that contains some attributes and methods. 
-#An Object is an element (or instance) of a class
-#An Instance is an object of the class
-#Initialize class attributes - __init__ method in Python is used to initialize objects of a class. It is also called a constructor.
-#Class attributes are class variables that are inherited by every object of a class. 
-#The value of class attributes remain the same for every new object.
-# Task
+#Task
 #Creating an application for the company - it represents our employees 
 #Using class because each individual employee has specific attributes and methods -
 #Each employee is going to have a name, an email address. They can perform actions 
@@ -26,7 +10,7 @@ class A:
     brand = 'B' #class attribute it sets an attribute brand of the class
 
 #A class - a blueprint to create instances. Instances are an object built from that blueprint
-# each unique employee that we create to use our employee class wil be an instance of that class
+#Each unique employee that we create to use our employee class will be an instance of that class
 
 emp_1 = EmployeeOld() 
 emp_2 = EmployeeOld()
@@ -34,7 +18,7 @@ emp_2 = EmployeeOld()
 
 print(emp_1)
 print(emp_2)
-# We can see that both of these are employee objects - they're both unique, because they have different locations in memory
+#We can see that both of these are employee objects - they're both unique, because they have different locations in memory
 #Instances variables contain data which is unique to each instance
 
 #Creating instance variables for each employee:

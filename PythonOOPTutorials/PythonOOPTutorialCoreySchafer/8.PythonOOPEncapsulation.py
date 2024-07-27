@@ -51,12 +51,12 @@ class Person:
     
     
         
-#1.It does not work, because we have a private attribute and the attribute name is automatically mangled to prevent accidental access      
+#Task 1.It does not work, because we have a private attribute and the attribute name is automatically mangled to prevent accidental access      
 #p1 = Person('Lukasz', 15, 'Male')
 #print(p1.__name)
 #p1.__name = 'Adam'   
   
-#2.After creating properties
+#Task 2.After creating properties
 #We can create propreties to allows us to manipulate these values  through properties getters and setters for example.
 
 p1 = Person("Mike", 20, "n") 
