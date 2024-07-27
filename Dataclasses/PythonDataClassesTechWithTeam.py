@@ -1,18 +1,17 @@
 #A data class is a class that is designed to only hold data values. 
-# They aren't different from regular classes, but they usually don't have any other methods. 
-# They are typically used to store information that will be passed between different parts of a program or a system.
-#Type annotations — also known as type 
-# signatures — are used to indicate the datatypes of variables and input/outputs of functions and methods.
+#They aren't different from regular classes, but they usually don't have any other methods. 
+#They are typically used to store information that will be passed between different parts of a program or a system.
+#Signatures — are used to indicate the datatypes of variables and input/outputs of functions and methods.
 from dataclasses import dataclass, field 
 from typing import ClassVar 
 import random
 import string
 
 @dataclass #Python dataclass decorator it modifies what is defined below. We modify class
-class Point: #we define two fields (x, y) and give the type annotation
+class Point: #we define two fields (x, y) and give the type annotation - it knows the type of variables
     x: int
     y: int 
-#dataclass reads these fields and populates three   common methods we have to write on our own:
+#dataclass reads these fields and populates three common methods we have to write on our own:
 #__init__
 #__repr__
 #__eq__
