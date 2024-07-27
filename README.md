@@ -24,5 +24,5 @@ This repository was designed to practise Python's libraries, frameworks, modules
 
 
 
-[!IMPORTANT]
-This repository were created based on a few sources
+> [!IMPORTANT]
+> This repository were created based on a few sources
