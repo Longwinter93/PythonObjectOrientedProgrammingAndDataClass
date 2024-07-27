@@ -1,6 +1,7 @@
 # Python Tutorial
 This repository was designed to practise Python's libraries, frameworks, modules, methods and variables . 
 
+
 ## Scope of training
 
 - **Dataclasses** - it is a Python's module to make structured class in particular for storing/holding data. It is used to store information that will be passes between different parts of a program or a system. It is a feature in Python 3.7 that provides a way to create data classes without the need to write methods.
@@ -20,3 +21,8 @@ This repository was designed to practise Python's libraries, frameworks, modules
 7. **Decorator** - it is a design pattern in Python that allows programmers to add new functionality to an existing object without modyfing its structure. It modifies the behaviour of a function and class.
 8. **Generator** - It allows to declare a function that behaves like an iterator for example it can be used in a for loop
 9. **Attributes** - They are variables that belong to objects. It contains information about object's properties and characteristics. It shows details and facts related to the object.
+
+
+
+[!IMPORTANT]
+This repository were created based on a few sources
