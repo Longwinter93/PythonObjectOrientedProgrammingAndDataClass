@@ -41,14 +41,14 @@ The value of **class attributes** remain the same for every new object.
 <br> 13. **@property** Decorator - is a built-in decorator for the property() function in Python. It is used to give "special" functionality to certain methods to make them act as _getters_, _setters_, or _deleters_ when we define properties in a class.
 
 > [!IMPORTANT]
-> All steps and definitions are described and written in all Python scripts
-> This repo was created based on these sources:
-> [DataCamp Python OOP Tutorial](https://www.datacamp.com/tutorial/python-oop-tutorial)
-> [OOP FreeCodeCamp](https://www.freecodecamp.org/news/how-to-use-oop-in-python/)
-> [Python Class Variables](https://pynative.com/python-class-variables/)
-> [OOP Python GeeksforGeeks](https://www.geeksforgeeks.org/python-oops-concepts/)
-> [OOP Python](https://www.programiz.com/python-programming/object-oriented-programming)
-> [YouTube TutorialNeuralNine](https://www.youtube.com/@NeuralNine/playlists)
-> [Python OOP Tutorial Corey Schafer](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
+> <br> All steps and definitions are described and written in all Python scripts
+> <br> This repo was created based on these sources:
+> <br> [DataCamp Python OOP Tutorial](https://www.datacamp.com/tutorial/python-oop-tutorial)
+> <br> [OOP FreeCodeCamp](https://www.freecodecamp.org/news/how-to-use-oop-in-python/)
+> <br> [Python Class Variables](https://pynative.com/python-class-variables/)
+> <br> [OOP Python GeeksforGeeks](https://www.geeksforgeeks.org/python-oops-concepts/)
+> <br> [OOP Python](https://www.programiz.com/python-programming/object-oriented-programming)
+> <br> [YouTube TutorialNeuralNine](https://www.youtube.com/@NeuralNine/playlists)
+> <br> [Python OOP Tutorial Corey Schafer](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 
 
