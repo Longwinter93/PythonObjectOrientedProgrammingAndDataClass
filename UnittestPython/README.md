@@ -20,7 +20,7 @@ python -m unittest test_employee3.py
 <br> [Unit Testing Your Code with the unittest Module](https://www.youtube.com/watch?v=6tNS--WetLI&t=1455s)
 <br> [Unit Tests in Python](https://www.dataquest.io/blog/unit-tests-python/)
 <br> [Unit Testing in Python using unittest Framework](https://www.geeksforgeeks.org/unit-testing-python-unittest/)
-<br> [Organizatin test code](https://docs.python.org/3/library/unittest.html#organizing-tests)
+<br> [Organization test code](https://docs.python.org/3/library/unittest.html#organizing-tests)
 <br> [TestCase assert methods](https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertEqual)
 
 > [!NOTE]
