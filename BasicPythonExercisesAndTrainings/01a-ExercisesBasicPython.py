@@ -1019,6 +1019,15 @@ my_new_list = [(a,b) for a in 'abcd' for b in range(4)]
 print(my_new_list)
 
 
+# In[2]:
+
+
+x = [[] for i in range(10)]
+print(x)
+y = [[j for j in range(5)] for i in range(10)]
+print(y)
+
+
 # ## Instead of map() & filter() & reduce() &  lambda(), using List Comprehension
 
 # In[110]:
@@ -1862,6 +1871,16 @@ answers = ['lancelot', 'the holy grail', 'blue']
 
 for q, a in zip(questions, answers):
     print('What is your {0}? It is {1}'.format(q,a))
+
+
+# In[5]:
+
+
+names = ['Alice', 'Bob', 'Charlie', 'David', 'Tim']
+ages = [30, 25, 35, 20]
+
+for a, g in zip(names, ages):
+    print(f'{a} is {g} years old')
 
 
 # # Dictionary Comprehension
