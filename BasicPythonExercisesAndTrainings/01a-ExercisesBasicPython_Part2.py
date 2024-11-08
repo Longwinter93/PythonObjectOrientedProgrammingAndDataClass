@@ -95,3 +95,43 @@ def divide(x, y):
 divide(3, 2)
 divide(3, 0)
 
+
+# # Fibonacci
+
+# In[13]:
+
+
+# Fn = F(n-1) + F(n-2)
+
+def Fibo(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return Fibo(n-1) + Fibo(n-2)
+
+Fibo(7)
+
+
+# In[14]:
+
+
+a, b = 0 , 1
+n = 7
+
+for i in range(n):
+    print(a, end =' ')
+    a, b = b, a + b
+    
+
+
+# In[20]:
+
+
+a, b = 0 , 1 
+n = 15
+
+while b < n:
+    print(a, end=' ')
+    a, b = b, a + b
+
